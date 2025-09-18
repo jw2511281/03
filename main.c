@@ -2,13 +2,15 @@
 
 int main(void)
 {
-    char c, d;
+    int ja, mo;
     
-    printf("Enter a character : ");
-    scanf("%c", &c);
+    printf("enter bunja : ");
+    scanf("%d", &ja);
     
-    d= c+1;
-    printf("The next character of %c (%d) is %c (%d).\n", c, c, d, d);
+    printf("enter bunmo : ");
+    scanf("%d", &mo);
+    
+    printf("The result is %f\n.", (float) ja/mo);
     system("PAUSE");
     return 0;
 }
